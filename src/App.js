@@ -42,6 +42,7 @@ const deleteAll = () => {
         <Lists todoList = {todoList} setTodoList={setTodoList}/>
         <Form value={value} setValue={setValue} btnSubmit={btnSubmit}/>
       </div>
+      <div className='gitBtn sans'><a href="https://github.com/breeghty/todolist_react">코드보기</a></div>
     </div>
   )
 }
