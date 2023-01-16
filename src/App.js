@@ -35,13 +35,12 @@ const deleteAll = () => {
     <div className='container'>
       <div className='todoBlock'>
         <div className='title'>
-          <h1>To Do List</h1>
-          <button className='deleteBtn' onClick={deleteAll}>Delete All</button>
+          <h1 className='serif'>To Do List</h1>
+          <button className='deleteBtn serif' onClick={deleteAll}>Delete All</button>
         </div>
 
         <Lists todoList = {todoList} setTodoList={setTodoList}/>
         <Form value={value} setValue={setValue} btnSubmit={btnSubmit}/>
-        
       </div>
     </div>
   )

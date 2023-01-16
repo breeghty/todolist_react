@@ -12,9 +12,9 @@ export default function Form({value, btnSubmit, setValue}) {
     return (
         <div>
         <form style={{display:'flex'}} onSubmit={btnSubmit}>
-            <input type="text" name="value" placeholder="해야할 일을 입력하세요"
+            <input type="text" name="value" className='sans' placeholder="해야할 일을 입력하세요"
             onChange={textChange} value={value} />
-            <input type="submit" value="입력"/>
+            <input type="submit" className='sans' value="입력"/>
             </form>
         </div>
     )

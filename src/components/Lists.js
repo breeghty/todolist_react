@@ -50,14 +50,12 @@ export default function Lists({todoList, setTodoList}) {
                                             </div>
                                         </div>
                                     )}
-                                    
                                 </Draggable>
                             )}
                             {provided.placeholder}
                             {/* 드래그시 레이아웃이 어긋나는 것 수정 */}
                         </div>
                     )}
-                    
                 </Droppable>
             </DragDropContext>
         </div>
